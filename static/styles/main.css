@@ -1,0 +1,87 @@
+#background {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -100;
+  overflow: hidden;
+  object-fit: scale-down;
+}
+
+/* solarized dark theme */
+:root {
+  --base03: #002b36;
+  --base02: #073642;
+  --base01: #586e75;
+  --base00: #657b83;
+  --base0: #839496;
+  --base1: #93a1a1;
+  --base2: #eee8d5;
+  --base3: #fdf6e3;
+  --yellow: #b58900;
+  --orange: #cb4b16;
+  --red: #dc322f;
+  --magenta: #d33682;
+  --violet: #6c71c4;
+  --blue: #268bd2;
+  --cyan: #2aa198;
+  --green: #859900;
+} 
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  src: url('/fonts/IBMPlexSans-Regular.woff2') format('woff2');
+}
+
+#content, header, nav, footer {
+   background-color: var(--base03);
+   font-family: 'IBM Plex Sans';
+   border-radius: 10px;
+   box-sizing: border-box;
+   padding: 12px;
+}
+
+#content {
+   flex-grow: 1;
+   overflow-y: scroll;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--base02); 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--cyan); 
+}
+
+.profile-picture img {
+   width: 200px;
+   height: 200px;
+   display: flex;
+   float: left;
+   border-radius: 10px;
+   margin-right: 20px;
+   margin-bottom: 20px;
+ }
+ 
+body {
+  color: var(--base3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  max-width: 900px;
+  margin: 0 auto;
+  gap: 10px;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+

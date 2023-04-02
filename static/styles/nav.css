@@ -1,0 +1,26 @@
+#navbar {
+   padding: 0;
+}
+#navbar ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+ 
+#navbar li a {
+    display: block;
+    padding: 5px 15px;
+    color: var(--base3);
+    text-decoration: none;
+}
+
+#navbar li a:hover {
+    background-color: var(--base02);
+    border-radius: 10px;
+}
+
+#navbar li a.is-active {
+   background-color: var(--cyan) !important;
+   border-radius: 10px;
+}

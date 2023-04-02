@@ -1,0 +1,26 @@
+/* Images should be only 200x200 */
+.post-image img {
+   width: 200px;
+   height: 200px;
+   border-radius: 10px;
+ }
+ 
+ /* The post should be a flex container */
+ .post {
+   display: flex;
+   border: 1px solid #586e75;
+   border-radius: 10px;
+   padding: 10px;
+   margin-bottom: 20px;
+ }
+ 
+ /* The h2 heading and p section should be in a flex container and aligned vertically */
+ .post-content {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   padding-left: 10px;
+ }
+ .post-content h2, .post-content p {
+   margin: 0;
+ }

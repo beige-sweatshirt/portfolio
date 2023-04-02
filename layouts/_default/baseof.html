@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <link rel="stylesheet" href="/styles/main.css">
+ <title>{{ .Page.Title }}</title>
+</head>
+
+<body>
+    <div id="background">
+        <video autoplay loop muted>
+            <source src="/images/grid.webm" type="video/webm">
+        </video>
+    </div>
+    {{ partialCached  "header" . }}
+    {{ partial  "nav" . }}
+    <div id="content">
+      {{ if eq .Page.Title "Home" }}
+        <div class="profile-picture">
+          {{ with .Params.image }}
+            <img src="{{ . }}" alt="Profile picture">
+          {{ end }}
+        </div>
+      {{ end }}
+      {{ block "main" . }} {{ end }}
+    </div>
+    {{ partialCached  "footer" . }}
+</body>
+</html>
