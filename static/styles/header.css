@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Zebulon';
-    src: url("{{ "/portfolio/fonts/Zebulon.woff2" | absURL }}") format('woff2');
+    src: url({{ "/portfolio/fonts/Zebulon.woff2" | absURL }}) format('woff2');
 }
 
 header {
