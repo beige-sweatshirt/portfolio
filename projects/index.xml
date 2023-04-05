@@ -2,61 +2,61 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Matt Holford</title>
-    <link>https://beige-sweatshirt.github.io/portfolio/projects/</link>
+    <link>https://beige-sweatshirt.github.io/projects/</link>
     <description>Recent content in Projects on Matt Holford</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://beige-sweatshirt.github.io/portfolio/projects/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://beige-sweatshirt.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Colony Simulation</title>
-      <link>https://beige-sweatshirt.github.io/portfolio/projects/colony_sim/</link>
+      <link>https://beige-sweatshirt.github.io/projects/colony_sim/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://beige-sweatshirt.github.io/portfolio/projects/colony_sim/</guid>
+      <guid>https://beige-sweatshirt.github.io/projects/colony_sim/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Criminal Intent</title>
-      <link>https://beige-sweatshirt.github.io/portfolio/projects/criminal_intent/</link>
+      <link>https://beige-sweatshirt.github.io/projects/criminal_intent/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://beige-sweatshirt.github.io/portfolio/projects/criminal_intent/</guid>
+      <guid>https://beige-sweatshirt.github.io/projects/criminal_intent/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Flight Scheduling Simulator</title>
-      <link>https://beige-sweatshirt.github.io/portfolio/projects/flight_sched/</link>
+      <link>https://beige-sweatshirt.github.io/projects/flight_sched/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://beige-sweatshirt.github.io/portfolio/projects/flight_sched/</guid>
+      <guid>https://beige-sweatshirt.github.io/projects/flight_sched/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Halloween Store</title>
-      <link>https://beige-sweatshirt.github.io/portfolio/projects/halloween_store/</link>
+      <link>https://beige-sweatshirt.github.io/projects/halloween_store/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://beige-sweatshirt.github.io/portfolio/projects/halloween_store/</guid>
+      <guid>https://beige-sweatshirt.github.io/projects/halloween_store/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Photo Gallery</title>
-      <link>https://beige-sweatshirt.github.io/portfolio/projects/photo_gallery/</link>
+      <link>https://beige-sweatshirt.github.io/projects/photo_gallery/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://beige-sweatshirt.github.io/portfolio/projects/photo_gallery/</guid>
+      <guid>https://beige-sweatshirt.github.io/projects/photo_gallery/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Process Scheduler</title>
-      <link>https://beige-sweatshirt.github.io/portfolio/projects/process_sched/</link>
+      <link>https://beige-sweatshirt.github.io/projects/process_sched/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://beige-sweatshirt.github.io/portfolio/projects/process_sched/</guid>
+      <guid>https://beige-sweatshirt.github.io/projects/process_sched/</guid>
       <description></description>
     </item>
     
