@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/styles/nav.css" aria-label="Main Navigation">
+<link rel="stylesheet" href="{{ "/styles/nav.css" | absURL }}" aria-label="Main Navigation">
 <nav id="navbar">
    <ul>
      {{ $currentPage := . }}
@@ -6,7 +6,7 @@
        <li>
          <a 
          class="{{ if $currentPage.IsMenuCurrent "main" . }}is-active{{ end }}"
-         href="{{ .URL }}">
+         href="{{ .URL | absURL }}">
            {{ .Name }}
          </a>
        </li>
