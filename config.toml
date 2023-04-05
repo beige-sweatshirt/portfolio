@@ -1,4 +1,4 @@
-baseURL = "https://beige-sweatshirt.github.io/portfolio/"
+baseURL = "https://beige-sweatshirt.github.io/"
 languageCode = 'en-us'
 title = 'Matt Holford'
 enableRobotsTXT = false
@@ -13,11 +13,11 @@ sectionPagesMenu = "main"
 [[menu.main]]
   pageRef='projects'
   identifier="projects"
-  name = 'Projects'
-  url = '/projects/'
+  name = 'Projects' 
+  url = '/portfolio/projects/'
   weight = 20
 [[menu.main]]
   pageRef = "contact"
   name = 'Contact'
-  url = '/contact/'
+  url = '/portfolio/contact/'
   weight = 30
