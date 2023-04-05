@@ -54,18 +54,21 @@
       
     <link rel="stylesheet" href="https://beige-sweatshirt.github.io/portfolio/styles/contact.css">
     <h1>Let's Talk!</h1>
-    <form action="/success" method="post" id="contact_form">
+    <form name="contact" method="post" data-netlify="true" id="contact_form">
+        <input type="hidden" name="form-name" value="contact">
+        
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required>
-        
+              
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" required>
-        
+              
         <label for="message">Message:</label>
         <textarea id="message" name="message" required></textarea>
-        
+              
         <button type="submit">Send</button>
-    </form>
+      </form>
+      
 
     </div>
     <head>
