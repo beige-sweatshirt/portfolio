@@ -9,6 +9,11 @@
   object-fit: scale-down;
 }
 
+#background video {
+  width: 100%;
+  height: 100%;
+}
+
 /* solarized dark theme */
 :root {
   --base03: #002b36;
